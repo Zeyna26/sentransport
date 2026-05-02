@@ -1,0 +1,22 @@
+.statistique {
+  display: inline-block;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.stat-chiffre {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0a6e31;
+}
+
+.stat-libelle {
+  display: block;
+  font-size: 1rem;
+  color: #333;
+}
