@@ -1,4 +1,5 @@
 import LigneBus from './LigneBus';
+import StatReseau from './StatReseau';
 import './ListeLignes.css';
 
 function ListeLignes({ lignes }) {
@@ -8,6 +9,7 @@ function ListeLignes({ lignes }) {
       <p className="liste-description">
         {lignes.length} lignes disponibles
       </p>
+      <StatReseau lignes={lignes} />
       {lignes.map(ligne => (
         <LigneBus
           key={ligne.id}
@@ -15,6 +17,7 @@ function ListeLignes({ lignes }) {
           depart={ligne.depart}
           arrivee={ligne.arrivee}
           arrets={ligne.arrets}
+          couleur={ligne.couleur}
         />
       ))}
     </div>
