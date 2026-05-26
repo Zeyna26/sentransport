@@ -63,4 +63,20 @@
     "arrets": 10,
     "listeArrets": ["Diamniadio", "Sébikotane", "Rufisque", "Thiaroye", "Dakar"]
   }
+  ,{
+    "id": 7,
+    "numero": "3",
+    "depart": "Grand Yoff",
+    "arrivee": "Plateau",
+    "arrets": 8,
+    "listeArrets": ["Grand Yoff", "Liberté 5", "Médina", "Plateau"]
+  },
+  {
+    "id": 8,
+    "numero": "42",
+    "depart": "Diamniadio",
+    "arrivee": "Dakar",
+    "arrets": 10,
+    "listeArrets": ["Diamniadio", "Sébikotane", "Rufisque", "Thiaroye", "Dakar"]
+  }
 ]
